@@ -3,3 +3,20 @@ npm init -y
 
 // sadece geliştirme sırasıdayken kullanılacak pakettir
 $ npm install -D prettier-plugin-tailwindcss
+
+// package.json bunlar ekleniyor
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier" : "npx prettier --write **/*.html"
+  },
+
+///
+sticky : bir elementin sayfa kaydırıldığında belirli bir konumda yapışkan hale gelmesini sağlar.
+konumunu belirlemek için bir yön (örneğin, top-0, bottom-0, left-0, veya right-0) eklemeniz gerekir.
+
+
+///
+z-10, Tailwind CSS'te, bir elementin z-indeksini (z-index) 10 olarak ayarlamak için kullanılan bir sınıftır. Z-indeksi, bir elementin diğer elementlere göre hangi katmanda yer alacağını belirler; yüksek z-indeksine sahip olan elementler daha üstte görünür.
+
+///
+space-x-8 : 8rem margin-right, 8rem margin-left 
