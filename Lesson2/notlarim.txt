@@ -1,0 +1,5 @@
+// modüller, değiştirmek için npm modülünüde yüklerim
+npm init -y
+
+// sadece geliştirme sırasıdayken kullanılacak pakettir
+$ npm install -D prettier-plugin-tailwindcss
