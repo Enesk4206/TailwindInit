@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rail{
+    background: linear-gradient(#272a2d, #eec7c7);
+}
