@@ -1,0 +1,14 @@
+
+///
+kısa yol ctl+d ile bir elementin üzerine gel ve sonrasında seçmek istediğin her bir aynı element için ctrl+d demelisin
+
+
+///
+mevcut satırı seçek için ctrl-l
+
+
+/// bir şablonu kopylamak için aşağıya alt+shift+down/up işareti(vs22 deki ctrl+d)
+
+
+/// mevcut olan 2 satırın ilkini aşaıya ikincisini yukarıya almak için 
+alt+capslock+down/up
