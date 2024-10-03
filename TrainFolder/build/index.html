@@ -6,11 +6,11 @@
     <title>My Foodie WebSite</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header class="rail py-3 sticky top-0 z-10">
-        <section class="max-w-5xl mx-auto text-4xl flex justify-between items-center">
-            <h2 class=" text-4xl text-white">Enes Kaya</h2>
-            <nav class="hidden sm:block space-x-8 text-2xl" >
+<body class="bg-black dark:bg-slate-200">
+    <header class="bg-slate-600 py-3 sticky top-0 z-10">
+        <section  class="max-w-4xl mx-auto text-4xl flex justify-between items-center">
+            <h2 class=" text-4xl text-white"><a href="#hero">Enes Kaya</a></h2>
+            <nav class="hidden sm:block space-x-8 text-2xl text-white" >
                 <a class="hover:opacity-60" href="#myprojects">My Projects</a>
                 <a class="hover:opacity-60" href="#contact">Contact</a>
                 <a class="hover:opacity-60" href="#support">Support</a>
@@ -20,6 +20,42 @@
        
     </header>
 
-    <main class="max-w-4xl mx-auto"></main>
+    <main class="max-w-4xl mx-auto">
+        <section id="hero" class=" flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40">
+            <div class="flex flex-col">
+                <h3 class="text-3xl text-amber-950">My Projects Will Be Future..</h3>
+                <h3 class="text-3xl text-amber-700">As A Full-Stack Developer You Might Work Form Me</h3>
+            </div>
+                
+         
+            <div >
+                <img class="border rounded-lg shadow-lg  shadow-black" src="https://www.joberty.com/blog/content/images/2023/09/senior-software-engineer.png" alt="software engineer">
+
+            </div>
+        </section>
+
+        <section id="myprojects" class="py-20 bg-cyan-25">
+            <h2 class="text-2xl sm:text-3xl mb-2 text-center">Codding Technologies</h2>
+            <ul class="list-none flex flex-col sm:flex-row pt-20 items-center justify-center bg-black border rounded-xl p-8 text-white">
+                <li class=" mr-20 h-96">
+                    <h4 class="text-center pb-2">Front-End Technologies</h4>
+                    <img class="rounded-xl" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Technology_Trends.jpg" alt="" width="300" height="350">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusamus enim iure inventore nobis dolore mollitia suscipit dicta, at placeat distinctio corporis libero blanditiis, quisquam facere fugiat necessitatibus tempore harum!</p>
+                </li>
+                <li class=" mr-20 h-96">
+                    <h4 class="text-center pb-2">Cloud Technologies</h4>
+                    <img class="rounded-xl" src="https://emeritus.org/wp-content/uploads/2023/11/tech.png" alt="" width="300" height="300">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quod sequi illo impedit fuga deleniti ratione error, sint, tempora numquam consectetur! Aliquid nulla in adipisci neque rem vitae, omnis delectus.</p>
+                </li>
+                <li class=" mr-20 h-96">
+                    <h4 class="text-center pb-2">Back-End Technologies</h4>
+                    <img class="rounded-xl" src="https://miro.medium.com/v2/resize:fit:1156/1*VzexncB2H2chkgC87wcnAA.jpeg" alt="" width="300" height="350">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, reiciendis corporis tenetur ipsam voluptatum, eius odio sequi reprehenderit soluta molestiae expedita ullam tempore recusandae assumenda neque, quia possimus enim repellat?</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact"></section>
+    </main>
 </body>
 </html>
